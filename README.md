@@ -1,7 +1,7 @@
 # Product Analytics SQL Project
 
 ## Overview
-This repository tracks my progression in learning advanced SQL for product analysis.
+This repository tracks my progression in learning basic to advanced SQL for product analysis.
 
 ## Tech Stack
 - **Engine:** PostgreSQL Server
