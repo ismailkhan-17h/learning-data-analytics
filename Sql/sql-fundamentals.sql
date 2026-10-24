@@ -53,15 +53,15 @@ CREATE UNIQUE NONCLUSTERED INDEX UX_Customers_Email
  ON SQLRevision.dbo.Customers (Email) 
  WHERE Email IS NOT NULL;
 
- SELECT * FROM SQLRevision.dbo.Products
+SELECT * FROM SQLRevision.dbo.Products
 
-  SELECT ProductName FROM SQLRevision.dbo.Products 
-  WHERE price >= 500 AND price <=10000 
+SELECT ProductName FROM SQLRevision.dbo.Products 
+WHERE price >= 500 AND price <=10000 
 
- SELECT * FROM SQLRevision.dbo.Customers
+SELECT * FROM SQLRevision.dbo.Customers
 
-  SELECT CustomerName FROM SQLRevision.dbo.Customers 
-  WHERE Email IS NULL OR City IS NULL
+SELECT CustomerName FROM SQLRevision.dbo.Customers 
+WHERE Email IS NULL OR City IS NULL
 
 SELECT * FROM SQLRevision.dbo.Products 
 
