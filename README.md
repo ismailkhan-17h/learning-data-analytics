@@ -1,5 +1,3 @@
-# SQL Project
-
 ## Overview
 This repository tracks my progression in learning to answer business questions with data. Every script here is
 written by me, and every entry notes what I got stuck on.
