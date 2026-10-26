@@ -7,3 +7,5 @@ word in where condition unless we loop the query, and if we want to use alias wo
 IDENTITY(starting point, increment value) function which is used for allocating primary key we even use increments here. primary key should be unique and it cannot be null these are 2 unique rules of primary key.
 
 Oct 25: I learned about aggregation functions where we can filter, categorize etc.. here i got to know that the count will count the null value but in avg, min, max, sum aggregates ignores the null values from any records or fields. and also i cam across the Significant figures in sql we use round, cast - converter, decimal - it is a data type so we convert this using cast -> alias -> decimal. or directly using Round. We must use group by first before using Having.
+
+Oct 26: I had learned joins in sql where we generally have left, right, inner, full joins with their advance type that are called anti joins which has a filter clause 'where'. but there is a join which is based on cartesian product called as Cross Join which do not use any clause (on) it is called as a multiplier
